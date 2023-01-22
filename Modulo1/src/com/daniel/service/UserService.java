@@ -6,10 +6,4 @@ public interface UserService {
 
     String getUser();
 
-    class UserServiceFactory {
-        public static UserService getUserService() {
-            return new UserServiceImpl();
-        }
-    }
-
 }
